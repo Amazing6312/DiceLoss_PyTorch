@@ -7,7 +7,7 @@ Date: 04.03.2020
 import torch
 import numpy as np
 
-def dice(vol1, vol2, labels=None):
+def dice_loss(vol1, vol2, labels=None):
     '''
     A PyTorch implementation of multi-class version of dice_loss
 
