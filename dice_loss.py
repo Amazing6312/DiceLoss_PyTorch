@@ -11,7 +11,7 @@ def dice_loss(vol1, vol2, labels=None):
     '''
     A PyTorch implementation of multi-class version of dice_loss
 
-    paramters:
+    parameters:
     vol1: torch Tensor. The first volume, which shape: [N, C, :, :, :]; N:batch size, C:channel
     vol2: torch Tensor. The second volume, which sames to vol1
     labels: default none.
