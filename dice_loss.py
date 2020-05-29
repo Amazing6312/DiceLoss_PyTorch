@@ -1,6 +1,5 @@
 '''
 Author: John Yang from AHU
-Contact: 2268866312@qq.com
 '''
 
 import torch
